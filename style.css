@@ -1,0 +1,88 @@
+body {
+    background-color: #25D6C3;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.menu-lista {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+
+}
+
+.meunu-item {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    padding: 1em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    }
+
+
+
+.botao-um {
+    cursor: pointer;
+    padding: 50px;
+    color: #003B71;
+    border: none;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.botao-dois {
+    cursor: pointer;
+    background-color: #004DA8;
+    color: white;
+    border: none;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.texto-principal {
+    font-size: 25px;
+    padding-left: 50px;
+}
+
+h1 {
+    color: white;
+}
+
+.texto-dois {
+    color: white;
+}
+
+.botao-tres {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #EF6332;
+    color: white;
+    border: none;
+    padding: 20px;
+    border-radius: 30px;
+    width: 300px;
+}
+
+
+.section-principal {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    background-image: url(lines\ dobra\ 1.png);
+    background-position: left;
+}
