@@ -76,6 +76,7 @@ h1 {
     padding: 20px;
     border-radius: 30px;
     width: 300px;
+    cursor: pointer;
 }
 
 
@@ -84,5 +85,7 @@ h1 {
     justify-content: space-around;
     padding-top: 100px;
     background-image: url(lines\ dobra\ 1.png);
-    background-position: left;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
