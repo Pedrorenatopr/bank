@@ -202,6 +202,16 @@ h1 {
     height: 106px;
 }
 
+.section-quatro {
+    background-color: #1CF2DB;
+    display: flex;
+    justify-content: center;
+
+}
+
+.section-quatro-item {
+}
+
 @media screen and (max-device-width: 900px) {
 
     .botoes {
