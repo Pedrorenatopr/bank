@@ -3,19 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>MRL Bank</title>
 </head>
-<body>
+<body onresize="mudouTamanho()">
 
     <div class="menu">
         <img class="logo" src="Logo.png" alt="">
 
-        <ul class="menu-lista">
+        <ul class="menu-lista" id="itens">
             <li><a class="menu-item" href="https://form.respondi.app/0V3nvU2i">Nosso Futuro</a></li>
             <li><a class="menu-item" href="https://docs.google.com/forms/d/e/1FAIpQLSdGmK-rY6CO7nMEXnKAejjV56zVVz5avFWhWop0MzM22WMAGg/viewform?usp=sf_link">Exclusive</a></li>
             <li><a class="menu-item" href="#">Seguros</a></li>
         </ul>
+
+        <div class="menu-botao">
+            <button class="botao-lateral"><span id="burguer" class="material-icons md-30" onclick="clickMenu()" >menu</span></button>
+        </div>
 
         <div class="botoes">
             <button class="botao-um">Acessar plataforma</button>
@@ -49,10 +54,29 @@
         </div>
 
         <div class="img-principal">
-            <img src="mockup cartão 1.png" alt="">
+            <img class="img-p" src="mockup cartão 1.png" alt="">
 
         </div>
     </div>
+
+    <script>
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 900) {
+                itens.style.display = 'flex'
+            } else {
+                itens.style.display = 'none' 
+            }
+        }
+
+        function clickMenu() {
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
     
 </body>
 </html>

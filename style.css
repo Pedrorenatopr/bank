@@ -14,6 +14,13 @@ body {
     padding-top: 20px;
 }
 
+.botao-lateral {
+    border: none;
+    background: none;
+    color: white;
+    display: none;
+}
+
 .menu-lista {
     text-decoration: none;
     list-style: none;
@@ -88,4 +95,49 @@ h1 {
     background-position: right;
     background-repeat: no-repeat;
     background-size: 100%;
+}
+
+@media screen and (max-device-width: 900px) {
+
+    .botoes {
+        display: none;
+    }
+
+    .menu-lista{
+        display: none;
+        height: 100%;
+        text-align: end;
+    }
+
+    .menu-item {
+        display: block;
+        text-align: end;
+    }
+
+    .botao-lateral {
+        display: block;
+        text-align: right;
+    }
+
+    .texto-principal{
+        font-size: 16px;
+        padding-left: 0;
+
+    }
+
+    .section-principal {
+        display: grid;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .img-p{
+        width: 100px;
+    }
+    
+    
 }
