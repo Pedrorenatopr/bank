@@ -1,8 +1,18 @@
 body {
-    background-color: #25D6C3;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    color: white;
 
 }
+
+.form-google {
+    position: absolute;
+    display: none;
+}
+
+.form-respondi {}
 
 .logo {
     cursor: pointer;
@@ -12,6 +22,7 @@ body {
     display: flex;
     justify-content: space-around;
     padding-top: 20px;
+    background-color: #25D6C3;
 }
 
 .botao-lateral {
@@ -95,6 +106,40 @@ h1 {
     background-position: right;
     background-repeat: no-repeat;
     background-size: 100%;
+    background-color: #25D6C3;
+}
+
+.texto-tres {
+    font-size: 32px;
+    margin-top: 0;
+    color: white;
+
+}
+
+.section-dois {
+    background-color: #004DA8;
+    margin-top: 0;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.card-dois {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 500px;
+    gap: 2em;
+}
+
+.text-card {
+    font-size: 18px;
+    line-height: 1.5em;
+
+}
+
+.card-dois-item {
 }
 
 @media screen and (max-device-width: 900px) {
