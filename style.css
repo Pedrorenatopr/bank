@@ -145,7 +145,12 @@ h1 {
 .section-tres {
     background-image: url(Modo_de_isolamento.png);
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.section-tres-item {
+    padding: 2em;
 }
 
 .texto-quatro {
@@ -181,6 +186,18 @@ h1 {
     font-size: 30px;
     text-align: left;
     height: 73px;
+}
+
+.bt-seis {
+    background-color: #003B71;
+    color: white;
+    padding: 15px;
+    width: 795px;
+    border-radius: 15px;
+    border: none;
+    font-size: 30px;
+    text-align: left;
+    height: 106px;
 }
 
 @media screen and (max-device-width: 900px) {
