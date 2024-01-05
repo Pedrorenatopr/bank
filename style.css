@@ -285,6 +285,46 @@ h1 {
     padding-top: 0;
 }
 
+.card-sete {
+    background-color: #1CF2DB;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto-card-sete {
+    padding-left: 200px;
+    font-size: 40px;
+
+}
+
+.legenda-sete {
+    font-size: 26px;
+    padding-left: 200px;
+}
+
+span {
+    font-size: 20px;
+    line-height: 0;
+}
+
+.foto-final {
+    display: flex;
+    justify-content: end;
+    margin-top: 0;
+}
+
+.bt-final {
+    margin-left: 200px;
+    width: 128px;
+    color: white;
+    background-color: #003B71;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
 @media screen and (max-device-width: 900px) {
 
     .botoes {
