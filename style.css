@@ -226,6 +226,7 @@ h1 {
     font-size: 16px;
     padding: 20px;
     width: 250px;
+    line-height: 0;
 
 }
 
@@ -239,6 +240,49 @@ h1 {
     background-image: url(Vector.png);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.section-cinco {
+    margin-top: 0;
+    background-image: url(network-chain-links-connections\ 1.png);
+    height: 800px;
+}
+
+.titulo-section-seis {
+    font-size: 30px;
+    margin-top: 0;
+    line-height: 0;
+}
+
+.texto-card-seis {
+    font-size: 30px;
+}
+
+.card-cinco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: -630px;
+    margin-left: 300px;
+    
+}
+
+.texto-section-seis {
+    width: 600px;
+}
+
+.teste-dois {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.bt-card-cinco {
+    margin-top: 0;
+    padding-top: 0;
 }
 
 @media screen and (max-device-width: 900px) {
