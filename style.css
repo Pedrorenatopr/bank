@@ -325,6 +325,34 @@ span {
     border-radius: 20px;
 }
 
+footer {
+    color: black;
+}
+
+.icone-footer {
+    padding: 0;
+}
+
+.lista-footer {
+    list-style: none;
+    text-decoration: none;
+    padding: 1em;
+}
+
+.item-footer {
+    color: black;
+    padding: 2em;
+}
+
+li {
+    padding: 5px;
+}
+
+.footer-tres {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10%;
+}
+
 @media screen and (max-device-width: 900px) {
 
     .botoes {
