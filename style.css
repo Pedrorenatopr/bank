@@ -204,12 +204,41 @@ h1 {
 
 .section-quatro {
     background-color: #1CF2DB;
-    display: flex;
-    justify-content: center;
 
 }
 
 .section-quatro-item {
+}
+
+.text-cinco {
+    font-size: 30px;
+}
+
+.card-tres {
+    padding-top: 200px;
+}
+
+.bt-card-tres{
+    color: white;
+    background-color: #EF6332;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    padding: 20px;
+    width: 250px;
+
+}
+
+.fundo-quatro {
+    display: flex;
+    justify-content: center;
+    background-color: #004DA8;
+}
+
+.teste {
+    background-image: url(Vector.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 @media screen and (max-device-width: 900px) {
