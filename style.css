@@ -469,6 +469,10 @@ footer {
         display: none;
     }
 
+    .img-coin {
+        width: 300px;
+    }
+
     .section-sete {
         display: grid;
     }
