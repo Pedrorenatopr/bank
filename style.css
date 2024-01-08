@@ -462,6 +462,11 @@ footer {
         width: 300px;
     }
 
+    .botao-quatro {
+        display: grid;
+        justify-content: center;
+    }
+
     .bt-quatro {
         background-color: #003B71;
         color: white;
