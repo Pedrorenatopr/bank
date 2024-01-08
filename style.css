@@ -497,6 +497,12 @@ footer {
 
     }
 
+    .fundo-quatro {
+        display: grid;
+        justify-content: center;
+        background-color: #004DA8;
+    }
+
     .section-quatro {
         display: grid;
     }
