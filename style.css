@@ -438,7 +438,12 @@ footer {
     .section-dois {
         display: grid;
     }
-    
+
+
+    .img-card-dois {
+        width: 300px;
+        text-align: center;
+    }
     
     
 }
