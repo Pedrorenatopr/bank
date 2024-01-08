@@ -439,6 +439,13 @@ footer {
         display: grid;
     }
 
+    .card-dois {
+        display: grid;
+        grid-template-columns: 50%;
+        height: 500px;
+        gap: 2em;
+    }
+
 
     .img-card-dois {
         width: 300px;
