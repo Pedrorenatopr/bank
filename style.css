@@ -437,6 +437,7 @@ footer {
 
     .section-dois {
         display: grid;
+        height: 1500px;
     }
 
     .card-dois {
@@ -450,6 +451,7 @@ footer {
     .img-card-dois {
         width: 300px;
         text-align: center;
+        padding-top: 650px;
     }
 
     .section-tres {
