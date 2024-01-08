@@ -434,6 +434,11 @@ footer {
     body {
         text-align: center;
     }
+
+    .section-dois {
+        display: grid;
+    }
+    
     
     
 }
