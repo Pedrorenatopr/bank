@@ -477,6 +477,10 @@ footer {
         width: 300px;
     }
 
+    footer {
+        display: grid;
+    }
+
 
 
 
