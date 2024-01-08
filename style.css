@@ -479,6 +479,15 @@ footer {
         height: 73px;
     }
 
+    .bt-cinco {
+        width: 550px;
+    }
+
+    .bt-seis {
+        width: 550px;
+
+    }
+
     .section-quatro {
         display: grid;
     }
