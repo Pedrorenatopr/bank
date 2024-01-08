@@ -462,6 +462,18 @@ footer {
         width: 300px;
     }
 
+    .bt-quatro {
+        background-color: #003B71;
+        color: white;
+        padding: 15px;
+        width: 350px;
+        border-radius: 15px;
+        border: none;
+        font-size: 30px;
+        text-align: left;
+        height: 73px;
+    }
+
     .section-quatro {
         display: grid;
     }
