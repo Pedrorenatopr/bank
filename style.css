@@ -444,6 +444,14 @@ footer {
         width: 300px;
         text-align: center;
     }
+
+    .section-tres {
+        display: grid;
+    }
+
+    .img-card-tres {
+        width: 300px;
+    }
     
     
 }
