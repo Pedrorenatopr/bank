@@ -285,6 +285,16 @@ h1 {
     padding-top: 0;
 }
 
+.card-cinco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: -630px;
+    margin-left: 0;
+    
+}
+
 .card-sete {
     background-color: #1CF2DB;
     margin-top: 0;
