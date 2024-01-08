@@ -469,7 +469,13 @@ footer {
         display: none;
     }
 
-    
+    .section-sete {
+        display: grid;
+    }
+
+    .img-final {
+        width: 300px;
+    }
 
 
 
