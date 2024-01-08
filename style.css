@@ -286,11 +286,10 @@ h1 {
 }
 
 .card-cinco {
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    margin-top: -630px;
+    margin-top: 0;
     margin-left: 0;
     
 }
