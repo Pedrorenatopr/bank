@@ -429,6 +429,10 @@ footer {
     .botao-tres {
         width: 150px;
     }
+
+    body {
+        text-align: center;
+    }
     
     
 }
