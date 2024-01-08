@@ -452,6 +452,20 @@ footer {
     .img-card-tres {
         width: 300px;
     }
+
+    .section-quatro {
+        display: grid;
+    }
+
+    .teste {
+        width: 300px;
+    }
+
+    
+
+
+
+
     
     
 }
