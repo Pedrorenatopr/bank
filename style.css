@@ -273,6 +273,7 @@ h1 {
 }
 
 .teste-dois {
+    display: none;
     align-items: center;
     text-align: center;
     display: flex;
