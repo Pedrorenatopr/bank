@@ -273,6 +273,7 @@ h1 {
 }
 
 .teste-dois {
+    display: none;
     align-items: center;
     text-align: center;
     display: flex;
@@ -283,6 +284,15 @@ h1 {
 .bt-card-cinco {
     margin-top: 0;
     padding-top: 0;
+}
+
+.card-cinco {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    margin-left: 0;
+    
 }
 
 .card-sete {
@@ -418,8 +428,121 @@ footer {
     }
 
     .img-p{
-        width: 100px;
+        width: 300px;
+        text-align: center;
     }
+
+    .texto-principal {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .section-principal {
+        display: grid;
+    }
+
+    .botao-tres {
+        width: 150px;
+    }
+
+    body {
+        text-align: center;
+    }
+
+    .section-dois {
+        display: grid;
+        height: 1500px;
+    }
+
+    .card-dois {
+        display: grid;
+        grid-template-columns: 100%;
+        height: 500px;
+        gap: 2em;
+    }
+
+
+    .img-card-dois {
+        width: 300px;
+        text-align: center;
+        padding-top: 650px;
+    }
+
+    .section-tres {
+        display: grid;
+    }
+
+    .img-card-tres {
+        width: 300px;
+    }
+
+    .botao-quatro {
+        display: grid;
+        justify-content: center;
+    }
+
+    .bt-quatro {
+        background-color: #003B71;
+        color: white;
+        padding: 15px;
+        width: 350px;
+        border-radius: 15px;
+        border: none;
+        font-size: 25px;
+        text-align: left;
+        height: 73px;
+    }
+
+    .bt-cinco {
+        width: 550px;
+    }
+
+    .bt-seis {
+        width: 550px;
+
+    }
+
+    .fundo-quatro {
+        display: grid;
+        justify-content: center;
+        background-color: #004DA8;
+    }
+
+    .section-quatro {
+        display: grid;
+    }
+
+    .teste {
+        width: 300px;
+    }
+
+    .section-cinco {
+        display: grid;
+    }
+
+    .teste-dois {
+        display: none;
+    }
+
+    .img-coin {
+        width: 300px;
+    }
+
+    .section-sete {
+        display: grid;
+    }
+
+    .img-final {
+        width: 300px;
+    }
+
+    footer {
+        display: grid;
+    }
+
+
+
+
     
     
 }
