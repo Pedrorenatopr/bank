@@ -485,20 +485,24 @@ footer {
         background-color: #003B71;
         color: white;
         padding: 15px;
-        width: 350px;
+        width: 232px;
         border-radius: 15px;
         border: none;
-        font-size: 25px;
-        text-align: left;
+        font-size: 16px;
         height: 73px;
+        text-align: center;
     }
 
     .bt-cinco {
-        width: 550px;
+        width: 327px;
+        text-align: center;
+        font-size: 16px;
     }
 
     .bt-seis {
-        width: 550px;
+        width: 327px;
+        text-align: center;
+        font-size: 15px;
 
     }
 
