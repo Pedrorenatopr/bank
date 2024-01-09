@@ -260,16 +260,30 @@ h1 {
 
 .card-cinco {
     display: flex;
+}
+
+.texto-section-teste {
+    color: black;
+    font-size: 30px;
+}
+
+.section-teste {
+    background-image: url(Modo_de_isolamento.png);
+    display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    margin-top: -630px;
-    margin-left: 300px;
-    
+}
+
+.bt-teste {
+    padding: 20px;
+    border: none;
+    background-color: #003B71;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
 }
 
 .texto-section-seis {
-    width: 600px;
 }
 
 .teste-dois {
@@ -478,6 +492,19 @@ footer {
 
     .img-card-tres {
         width: 300px;
+    }
+
+    .section-teste {
+        display: grid;
+    }
+
+    .img-teste {
+        position: absolute;
+        width: 300px;
+        margin-top: -500px;
+        margin-right: -200px;
+        padding-right: -200px;
+        display: none;
     }
 
     .botao-quatro {
