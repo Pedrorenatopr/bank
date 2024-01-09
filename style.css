@@ -498,13 +498,16 @@ footer {
         display: grid;
     }
 
+    .img-logo {
+        width: 200px;
+    }
+
     .img-teste {
         position: absolute;
-        width: 300px;
-        margin-top: -500px;
-        margin-right: -200px;
-        padding-right: -200px;
-        display: none;
+        width: 200px;
+        margin-top: -480px;
+        margin-left: -80px;
+    
     }
 
     .botao-quatro {
@@ -524,10 +527,23 @@ footer {
         text-align: center;
     }
 
+
+    .text-cinco {
+        font-size: 16px;
+        white-space: nowrap;
+    }
+
     .bt-cinco {
         width: 300px;
         text-align: center;
         font-size: 16px;
+    }
+
+    .texto-section-teste {
+        color: black;
+        font-size: 16px;
+        white-space: nowrap;
+        margin-top: 200px;
     }
 
     .bt-seis {
