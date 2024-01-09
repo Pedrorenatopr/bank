@@ -407,6 +407,10 @@ footer {
         display: grid;
     }
 
+.section-dois {
+    display: grid;
+}
+
     .menu {
         display: flex;
         align-items: center;
