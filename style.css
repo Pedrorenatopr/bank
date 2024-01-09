@@ -417,9 +417,9 @@ footer {
         display: grid;
     }
 
-.section-dois {
-    display: grid;
-}
+    .section-dois {
+        display: grid;
+    }
 
     .menu {
         display: flex;
@@ -466,6 +466,10 @@ footer {
         width: 300px;
         text-align: center;
         padding-top: 650px;
+    }
+
+    .card-tres {
+        padding-top: 0;
     }
 
     .section-tres {
