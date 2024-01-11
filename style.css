@@ -405,13 +405,19 @@ footer {
 
 @media screen and (max-device-width: 900px) {
 
+    .logo {
+        display: flex;
+        width: 180px;
+        padding-left: 10px;
+    }
+
     .botoes {
         display: none;
     }
 
     .menu-lista{
         display: none;
-        height: 100%;
+        height: 400px;
         text-align: end;
     }
 
@@ -421,8 +427,11 @@ footer {
     }
 
     .botao-lateral {
+        text-align: end;
         display: block;
-        text-align: right;
+        padding-left: 380px;
+        position: absolute;
+        margin-top: -40px;
     }
 
     .texto-principal{
@@ -440,9 +449,9 @@ footer {
     }
 
     .menu {
-        display: flex;
+        display: block;
         align-items: center;
-        justify-content: space-between;
+        margin: 0;
     }
 
     .img-p{
